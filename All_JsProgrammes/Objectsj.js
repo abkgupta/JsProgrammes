@@ -23,14 +23,26 @@
 //   }
 
   // Object Methods
-  const person = {
-    firstName: "John",
-    lastName: "Doe",
-    id: 5566,
-  };
-  person.name = function() {
-    return this.firstName + " " + this.lastName;
-  };
+//   const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     id: 5566,
+//   };
+//   person.name = function() {
+//     return this.firstName + " " + this.lastName;
+//   };
   
  
- console.log( "My father is " + person.name()); 
+//  console.log( "My father is " + person.name()); 
+
+// Convert an Object to an Array in JavaScript for key
+
+const person = {
+  firstName: "Abhishek",
+  lastName: "Gupta"
+}
+
+// const persar = Object.keys(person)
+// console.log(persar[1])
+const persar = Object.entries(person)
+console.log(persar)
