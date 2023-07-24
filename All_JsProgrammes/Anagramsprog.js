@@ -10,9 +10,9 @@ function checkStringsAnagram(a, b) {
    let str2 = b.split('').sort().join('');
    console.log(str1)
    if(str1 = str2){
-     console.log("True");
+     console.log("true");
    } else { 
-      console.log("False");
+      console.log("false");
    }
 }
 checkStringsAnagram("indian","ndiani")
